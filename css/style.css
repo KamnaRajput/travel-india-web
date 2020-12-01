@@ -1,6 +1,7 @@
 body
 {
 	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
 	margin:0px;
 	color:#333;
 	line-height: 2;
@@ -146,7 +147,15 @@ img
 	width: 20%;
 	float: left;
 }
-
+.center
+{
+	text-align:center;
+}
+.cityname
+{
+	text-transform:uppercase;
+	text-align:center;
+}
 @keyframes slider {
 	0% {
 		left: 0;
@@ -184,6 +193,24 @@ img
 {
 	width:380px;
 	height:285px;
+}
+#places-img h3
+{
+	background-color:#000;
+	padding:10px;
+	margin:0px;
+	border:1px solid #000;
+	text-transform:uppercase;
+}
+#places-img a
+{
+	text-decoration:none;
+	color:#fff;
+}
+#places-img h3:hover
+{
+	background-color:#fff;
+	color:#000;
 }
 footer
 {
